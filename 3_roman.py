@@ -7,7 +7,7 @@ def roman_num(func, n: str, value: int = None) -> int:
         if val != None:
             print(f"{n} = {val}")
         else:
-            return "Value not found"
+            print("Value not found")
     
     def write(n, value):
         with open("roman.txt", "r") as foo:
