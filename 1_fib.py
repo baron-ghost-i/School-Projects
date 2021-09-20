@@ -27,5 +27,5 @@ try:
 except ValueError:
     raise ValueError("Value of input must be a natural number")
 else:
-    out = fib(int(n))
+    out = fib(n)
     print(f"{n}{suffix} term of the Fibonacci series: {out}")
